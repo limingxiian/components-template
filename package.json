@@ -1,5 +1,5 @@
 {
-    "name": "components-template",
+    "name": "@components/template",
     "version": "1.0.1",
     "description": "React components for Vortex",
     "keywords": [

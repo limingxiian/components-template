@@ -1,0 +1,14 @@
+{
+  "extends": [
+      "stylelint-config-standard", 
+      "stylelint-config-rational-order",
+      "stylelint-config-prettier"
+  ],
+  "plugins": ["stylelint-order", "stylelint-declaration-block-no-ignored-properties"],
+  "rules": {
+      "declaration-empty-line-before": null,
+      "selector-type-no-unknown": [true, {
+          "ignoreTypes": ["when(@theme=default)", "when(@theme=dark)"]
+       }]
+  }
+}

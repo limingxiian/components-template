@@ -1,6 +1,6 @@
 ---
 hero:
-    title: '@vtx/board'
+    title: 'components-template'
     desc: 看板组件库
     actions:
         - text: 开始使用
@@ -17,11 +17,11 @@ features:
 ## 安装
 
 ```shell
-yarn add @vtx/board -S
+yarn add components-template -S
 ```
 
 ## 使用
 
 ```js
-import { XXX } from '@vtx/board';
+import { XXX } from 'components-template';
 ```
